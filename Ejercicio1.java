@@ -17,20 +17,21 @@
       int segundaNota = scan.nextInt();
       int terceraNota = scan.nextInt();
       int cuartaNota = scan.nextInt();
- 
+      int quintaNota = scan.nextInt();
  /**
   * Calcular el promedio de 4 notas con misma ponderación.
   *
   *  @param primeraNota la primera calificación a sumar
   *  @param segundaNota la segunda calificación a sumar 
   *  @param terceraNota la tercera calificación a sumar 
-  *  @param cuartaNota la cuarta y última calificación a sumar,
+     @param cuartaNota la cuarta calificacióln a sumar
+  *  @param quintaaNota la quinta y última calificación a sumar,
   *  para luego dividir este resultado dentro de 4
   *  @return el promedio de las cuatro calificaciónes 
   * 
   */
       int promedio = (primeraNota + segundaNota + 
-      terceraNota + cuartaNota) / 4 ;
+      terceraNota + cuartaNota + quintaNota ) / 5 ;
       System.out.print(promedio);
      }
  }
