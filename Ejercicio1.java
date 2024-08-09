@@ -1,7 +1,7 @@
 /**
  * Algoritmo para hallar el promedio de 4 calificaciones de exámenes
  * @author Karla Pirir García 
- * @since 30/07/2024
+ * @since 08/08/2024
  */
 
  import java.util.Scanner;
@@ -18,6 +18,7 @@
       int terceraNota = scan.nextInt();
       int cuartaNota = scan.nextInt();
       int quintaNota = scan.nextInt();
+      int sextaNota = scan.nextInt();
  /**
   * Calcular el promedio de 4 notas con misma ponderación.
   *
@@ -25,13 +26,14 @@
   *  @param segundaNota la segunda calificación a sumar 
   *  @param terceraNota la tercera calificación a sumar 
      @param cuartaNota la cuarta calificacióln a sumar
-  *  @param quintaaNota la quinta y última calificación a sumar,
+     @param quintaNota la quinta calificacióln a sumar
+  *  @param SextaNota la sexta y última calificación a sumar,
   *  para luego dividir este resultado dentro de 4
   *  @return el promedio de las cuatro calificaciónes 
   * 
   */
       int promedio = (primeraNota + segundaNota + 
-      terceraNota + cuartaNota + quintaNota ) / 5 ;
+      terceraNota + cuartaNota + quintaNota + sextaNota) / 6 ;
       System.out.print(promedio);
      }
  }
